@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
 
-const Header = () => {
+import { NavLink } from 'react-router-dom';
+
+const Navbar = () => {
 
 
     const links = <>
@@ -39,4 +39,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Navbar;
